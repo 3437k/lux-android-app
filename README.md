@@ -40,4 +40,4 @@
 
 ## 화면 구성
 
-![image](resource/s2.png)
+![lux](https://github.com/3437k/lux-android-app/blob/main/resource/lux_02.png?raw=true)
