@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Light Track</string>
+    <string name="lx" translatable="false">%1$s lx</string>
+    <string name="degree" translatable="false">%1$s°</string>
+</resources>
