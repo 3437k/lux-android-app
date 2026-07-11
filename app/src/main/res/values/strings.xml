@@ -2,4 +2,8 @@
     <string name="app_name">Light Track</string>
     <string name="lx" translatable="false">%1$s lx</string>
     <string name="degree" translatable="false">%1$s°</string>
+    <string name="hold_instruction">Press and hold the screen to pause measurement.</string>
+    <string name="hold_label">HOLD</string>
+    <string name="switch_light_mode">Switch to Light Mode</string>
+    <string name="switch_dark_mode">Switch to Dark Mode</string>
 </resources>

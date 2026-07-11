@@ -10,6 +10,7 @@ import android.view.WindowManager
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.viewModels
 import com.k3437.lux.ui.LuxScreen
 import com.k3437.lux.ui.viewmodel.LuxViewModel
 
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity(), SensorEventListener {
     private lateinit var sensorManager: SensorManager // 센서 관리자
     private var lightSensor: Sensor? = null // 조도 센서
 
-    private val viewModel: LuxViewModel = LuxViewModel() // 조도 뷰모델
+    private val viewModel: LuxViewModel by viewModels() // 조도 뷰모델
 
     override fun onCreate(savedInstanceState: Bundle?) {
         //  SDK 35를 타겟팅하는 앱은 Android 15 이상에서 앱이 올바르게 표시되도록 인셋을 처리
@@ -40,7 +41,7 @@ class MainActivity : ComponentActivity(), SensorEventListener {
 
         setContent {
             // LuxScreen 컴포저블을 화면에 표시
-            LuxScreen(viewModel)
+            LuxScreen()
         }
     }
 

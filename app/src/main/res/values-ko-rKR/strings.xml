@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">조도계</string>
+    <string name="hold_instruction">화면을 누르고 있으면 측정이 일시 정지됩니다.</string>
+    <string name="hold_label">고정됨</string>
+    <string name="switch_light_mode">라이트 모드로 전환</string>
+    <string name="switch_dark_mode">다크 모드로 전환</string>
 </resources>

@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <!-- 센서 -->
+    <!-- 이 앱은 기기의 조도 센서(주변 밝기 측정)를 반드시 필요로 합니다. -->
+    <!-- android:required="true"로 설정되어 있기 때문에,
+    조도 센서가 없는 기기(예: 일부 저가형 태블릿이나 구형 기기)에서는
+    구글 플레이 스토어에서 이 앱을 검색하거나 다운로드할 수 없습니다. (하드웨어 필터링 적용) -->
     <uses-feature
         android:name="android.hardware.sensor.light"
         android:required="true" />

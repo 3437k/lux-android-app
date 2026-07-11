@@ -18,4 +18,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Lux"
 include(":app")
- 
+include(":baselineprofile")
