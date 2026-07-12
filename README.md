@@ -48,5 +48,4 @@
   - 사용자에게는 간단한 비교용 측정 도구로 안내.
 
 ## 화면 구성
-
-![lux](https://github.com/3437k/lux-android-app/blob/main/resource/lux_02.png?raw=true)
+![lux](resource/lux_03.png)
