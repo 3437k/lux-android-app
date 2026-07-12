@@ -11,7 +11,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.k3437.lux.ui.LuxScreen
 import com.k3437.lux.ui.viewmodel.LuxViewModel
 
@@ -23,9 +22,6 @@ class MainActivity : ComponentActivity(), SensorEventListener {
     private val viewModel: LuxViewModel by viewModels() // 조도 뷰모델
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        // 스플래시 화면 설치 (반드시 super.onCreate() 이전에 호출)
-        installSplashScreen()
-
         //  SDK 35를 타겟팅하는 앱은 Android 15 이상에서 앱이 올바르게 표시되도록 인셋을 처리
         enableEdgeToEdge()
 
